@@ -3,14 +3,12 @@ package com.degiro.portfolio.service;
 import com.degiro.portfolio.constants.TransactionStatusConstants;
 import com.degiro.portfolio.dao.TransactionDao;
 import com.degiro.portfolio.entity.TransactionEntity;
-import com.degiro.portfolio.responseobject.PortFolioObject;
 import com.degiro.portfolio.util.BaseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
-import java.util.Arrays;
 import java.util.List;
 
 @Service
